@@ -163,12 +163,12 @@ test.finalizedBy jacocoTestReport
 
 checkstyle {
   toolVersion = checkstyleVersion
-  config = rootProject.resources.text.fromFile('etc/checkstyle/rules.xml')
+  config = rootProject.resources.text.fromFile('rules.xml')
 }
 
 pmd {
   toolVersion = pmdVersion
-  ruleSetConfig = rootProject.resources.text.fromFile('etc/pmd/ruleset.xml')
+  ruleSetConfig = rootProject.resources.text.fromFile('ruleset.xml')
   ignoreFailures = true
 }
 
