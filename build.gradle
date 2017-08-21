@@ -8,16 +8,12 @@ apply plugin: 'propdeps-eclipse'
 apply plugin: 'eclipse-wtp'
 apply plugin: 'idea'
 apply plugin: 'rebel'
-
-plugins {
-  id 'java'
-  id 'org.springframework.boot' version '1.5.4.RELEASE'
-  id 'eclipse'
-  id 'jacoco'
-  id 'checkstyle'
-  id 'pmd'
-  id 'project-report'
-  id 'build-dashboard'
+apply plugin 'org.springframework.boot' version '1.5.4.RELEASE'
+apply plugin 'jacoco'
+apply plugin 'checkstyle'
+apply plugin 'pmd'
+apply plugin 'project-report'
+apply plugin 'build-dashboard'
 }
 
 
