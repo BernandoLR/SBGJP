@@ -106,6 +106,7 @@ def tomcatWebAppsHome = '/usr/local/tomcat7/webapps'
 war {
     archiveName appWarName
 }
+defaultTasks 'clean', 'build'
 
 task deployWar() {
     doLast {
