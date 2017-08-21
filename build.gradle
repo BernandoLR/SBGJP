@@ -14,8 +14,6 @@ apply plugin 'checkstyle'
 apply plugin 'pmd'
 apply plugin 'project-report'
 apply plugin 'build-dashboard'
-}
-
 
 println "PROJECT=" + project.name
 
